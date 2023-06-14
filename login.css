@@ -1,0 +1,72 @@
+.pic{
+    background: url("https://wallpaperaccess.com/full/886178.jpg");
+   height: 720px;
+   width: 1400ox;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 2s linear;
+}
+.pic:hover{
+background: url("https://wallpaperaccess.com/full/886178.jpg");
+height: 720px;
+width: 1400px;
+background-repeat: no-repeat;
+background-size: cover;
+animation: picture 2s infinite;
+}
+@keyframes picture{
+    0%{
+         background: url("https://wallpaperaccess.com/full/886178.jpg");
+   height: 720px;
+   width: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    }
+    25%{
+        background: url("https://www.shutterstock.com/image-photo/womens-tiara-diamonds-on-table-260nw-628656308.jpg");
+        height: 720px;
+        width: 1400px;
+         background-repeat: no-repeat;
+         background-size: cover; 
+    }
+    50%{
+          background: url("https://img.freepik.com/premium-photo/cosmetics-brush-explosion-colorful-makeup-powder-background_251317-2267.jpg");
+   height: 720px;
+   width: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    75%{
+        background: url("https://media.istockphoto.com/id/520973804/photo/beautiful-tiara.jpg?s=612x612&w=0&k=20&c=bTyClMZh5PN0ACtJyllcDqLjM212bIonS7JCmQO90AI=");
+        height: 720px;
+        width: 1400px;
+         background-repeat: no-repeat;
+         background-size: cover; 
+    }
+    100%{
+        background: url("https://cutewallpaper.org/27/blue-to-purple-face-wallpaper/814530496.jpg");
+        height: 720px;
+        width: 1400px;
+         background-repeat: no-repeat;
+         background-size: cover;
+    }
+}
+.header{ 
+    display: flex;
+    font-size: 30px;
+    float: right;
+}
+nav{
+    padding: 10px;
+}
+hr{
+    margin-top: 6px;
+    height: 30px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.si{
+    justify-content: space-evenly;
+}
